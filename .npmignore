@@ -1,0 +1,6 @@
+gulpfile.js
+scripts/
+src/
+image/
+*.log
+example/
