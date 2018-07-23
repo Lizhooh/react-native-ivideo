@@ -11,9 +11,9 @@ React-native-ivideo A component based on the react-native-video custom play bar.
 
 > Currently, the performance is not tested on IOS.
 
-characteristic:
-- Basic playback features, friendly interface, progress control, and gradual animation.
-- Fine-grained optimization, the UI thread can maintain 60 FPS during playback, and the JS thread can maintain 60 ~ 50 FPS.
+__characteristic:__
+- Basic playback features, friendly interface, progress control, evolving animation, and simple style.
+- Fine-grained optimization, the UI thread can maintain 60 FPS during playback, and the JS thread can maintain 60 ~ 55 FPS.
 - Provides full-screen playback.
 - Supports formats such as MP4, M4A, FMP4, WebM, MKV, MP3, Ogg, WAV, MPEG-TS, MPEG-PS, FLV and ADTS (AAC).
 - Support DASH, HlS and SmoothStreaming adaptive streaming.
@@ -75,9 +75,9 @@ allprojects {
 ### Usage
 
 ```js
-import Video from 'react-native-ivideo';
+import IVideo from 'react-native-ivideo';
 
-<Video
+<IVideo
     source={{ uri: url }}
     title='title'
     showFullscreenIcon={true}

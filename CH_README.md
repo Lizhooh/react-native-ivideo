@@ -8,9 +8,9 @@ react-native-ivideo 一个基于 react-native-video 自定义播放栏的组件�
 
 > 目前暂未在  IOS 上测试表现效果。
 
-特性：
-- 基本的播放功能，友好的界面，进度控制，渐出动画。
-- 细粒度优化，播放时 UI 线程能保持 60 FPS，JS 线程能保持 60 ~ 50 FPS。
+__特性：__
+- 基本的播放功能，友好的界面，进度控制，渐出动画，简洁的风格。
+- 细粒度优化，播放时 UI 线程能保持 60 FPS，JS 线程能保持 60 ~ 55 FPS。
 - 提供全屏播放的功能。
 - 支持 MP4，M4A，FMP4，WebM，MKV，MP3，Ogg，WAV，MPEG-TS，MPEG-PS，FLV 和 ADTS（AAC）等格式。
 - 支持 DASH，HlS 和 SmoothStreaming 自适应流。
@@ -71,11 +71,11 @@ allprojects {
 ### 使用
 
 ```js
-import Video from 'react-native-ivideo';
+import IVideo from 'react-native-ivideo';
 
-<Video
+<IVideo
     source={{ uri: url }}
-    title={title}
+    title='title'
     showFullscreenIcon={true}
     width='100%'
     height={240}
