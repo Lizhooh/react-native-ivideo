@@ -1,6 +1,6 @@
 {
   "name": "react-native-ivideo",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "React-native-ivideo is a component based on the react-native-video custom play bar.",
   "main": "index.js",
   "dependencies": {

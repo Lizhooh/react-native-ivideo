@@ -100,6 +100,9 @@ Please check [example code](./example/index.js).
 | showFullscreenIcon | bool          | false   | whether to display the full screen button. |
 | autoPlay           | bool          | false   | whether to automatically start playback after the video initialization is completed. |
 
+<br />
+
+
 __Map to the properties of react-native-video:__
 
 | name                   | type   | default | description                              |
@@ -112,6 +115,9 @@ __Map to the properties of react-native-video:__
 | resizeMode             | string | 'cover' | how the video fills the container.       |
 | useTextureView         | bool   | false   | whether to use useTextureView.           |
 | volume                 | number | 1.0     | The sound size of the video.             |
+| seek                   | number | 0       | The location where the playback starts.  |
+
+<br />
 
 __event:__
 
@@ -131,4 +137,3 @@ __event:__
 
 
 ### Change log
-

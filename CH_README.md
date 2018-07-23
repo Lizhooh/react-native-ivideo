@@ -97,6 +97,8 @@ import IVideo from 'react-native-ivideo';
 | showFullscreenIcon | bool          | false   | 是否显示全屏按钮。           |
 | autoPlay           | bool          | false   | 是否在视频初始化完成后就自动开始播放。 |
 
+<br />
+
 __映射到 react-native-video 的属性：__
 
 | name                   | type   | default | description          |
@@ -109,6 +111,9 @@ __映射到 react-native-video 的属性：__
 | resizeMode             | string | 'cover' | 视频以怎样的方式填充容器。        |
 | useTextureView         | bool   | false   | 是否使用 useTextureView。 |
 | volume                 | number | 1.0     | 视频的声音大小。             |
+| seek                   | number | 0       | 开始播放的位置。             |
+
+<br />
 
 __事件：__
 
@@ -127,4 +132,3 @@ __事件：__
 
 
 ### 更新日志
-
