@@ -95,7 +95,7 @@ Please check [example code](./example/index.js).
 | height             | number、string | 240     | video height, __@required__.             |
 | source             | object        | null    | video data source, __@required__.        |
 | toolbarDuration    | number        | 6000    | the toolbar displays the duration (ms).  |
-| toolbarSliderColor | string        | #f90    | the speed of the toolbar slider.         |
+| toolbarSliderColor | string        | #f90    | the color of the toolbar slider.         |
 | title              | string        | ''      | the title displayed by the toolbar.      |
 | showFullscreenIcon | bool          | false   | whether to display the full screen button. |
 | autoPlay           | bool          | false   | whether to automatically start playback after the video initialization is completed. |

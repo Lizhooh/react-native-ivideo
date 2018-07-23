@@ -92,7 +92,7 @@ import IVideo from 'react-native-ivideo';
 | height             | number、string | 240     | 视频的高度，__必须。__       |
 | source             | object        | null    | 视频的数据源，__必须。__      |
 | toolbarDuration    | number        | 6000    | 工具栏显示持续时间（ms）。      |
-| toolbarSliderColor | string        | #f90    | 工具栏滑块的速度。           |
+| toolbarSliderColor | string        | #f90    | 工具栏滑块的颜色。           |
 | title              | string        | ''      | 工具栏显示的标题。           |
 | showFullscreenIcon | bool          | false   | 是否显示全屏按钮。           |
 | autoPlay           | bool          | false   | 是否在视频初始化完成后就自动开始播放。 |
