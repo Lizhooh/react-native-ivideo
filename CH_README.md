@@ -37,9 +37,8 @@ react-native-ivideo 使用到了 react-native-video、react-native-orientation�
 
 ```bash
 yarn add react-native-ivideo
-yarn add react-native-video
-yarn add react-native-orientation
-yarn add react-native-linear-gradient
+# or
+npm install --save react-native-ivideo
 ```
 
 链接：
