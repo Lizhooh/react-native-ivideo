@@ -7,7 +7,6 @@ React-native-ivideo A component based on the react-native-video custom play bar.
 <a href="https://www.npmjs.com/package/react-native-ivideo"><img src="https://img.shields.io/npm/dm/react-native-ivideo.svg?style=flat-square"></a>
 
 
-
 [中文说明 -> 点这里](./CH_README.md)
 
 > Currently, the performance is not tested on IOS.
@@ -80,7 +79,7 @@ import Video from 'react-native-ivideo';
 
 <Video
     source={{ uri: url }}
-    title={title}
+    title='title'
     showFullscreenIcon={true}
     width='100%'
     height={240}
@@ -90,4 +89,50 @@ import Video from 'react-native-ivideo';
 ### Example
 Please check [example code](./example/index.js).
 
+
+
+### Props
+
+| name               | type          | default | description                              |
+| :----------------- | :------------ | :------ | :--------------------------------------- |
+| width              | number、string | 100%    | video width, __@required__.              |
+| height             | number、string | 240     | video height, __@required__.             |
+| source             | object        | null    | video data source, __@required__.        |
+| toolbarDuration    | number        | 6000    | the toolbar displays the duration (ms).  |
+| toolbarSliderColor | string        | #f90    | the speed of the toolbar slider.         |
+| title              | string        | ''      | the title displayed by the toolbar.      |
+| showFullscreenIcon | bool          | false   | whether to display the full screen button. |
+| autoPlay           | bool          | false   | whether to automatically start playback after the video initialization is completed. |
+
+__Map to the properties of react-native-video:__
+
+| name                   | type   | default | description                              |
+| :--------------------- | :----- | :------ | :--------------------------------------- |
+| progressUpdateInterval | number | 600     | The call time difference of onProgress.  |
+| playInBackground       | bool   | false   | whether the video is playing in the background. |
+| muted                  | bool   | false   | whether it is muted.                     |
+| rate                   | number | 1.0     | the rate at which the video plays.       |
+| repeat                 | bool   | false   | whether to repeat the loop playback.     |
+| resizeMode             | string | 'cover' | how the video fills the container.       |
+| useTextureView         | bool   | false   | whether to use useTextureView.           |
+| volume                 | number | 1.0     | The sound size of the video.             |
+
+__event:__
+
+| name               | type     | default | description                              |
+| :----------------- | :------- | :------ | :--------------------------------------- |
+| onProgress         | function | d => d  | video playback progress event.           |
+| onBuffer           | function | d => d  | fires when the video is cached.          |
+| onLoadStart        | function | e => e  | fires when the video is loadedstart.     |
+| onLoad             | function | d => d  | fires when the video is loaded.          |
+| onFullscreen       | function | e => e  | fires when the video enters full screen. |
+| onCancelFullscreen | function | e => e  | fires when the video exits full screen.  |
+| onPlay             | function | e => e  | fires when the video plays.              |
+| onPause            | function | e => e  | fires when the video is paused.          |
+| onEnd              | function | e => e  | fires when the video ends.               |
+| onError            | function | e => e  | fires when an error occurs in video playback/loading. |
+
+
+
+### Change log
 
