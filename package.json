@@ -1,0 +1,22 @@
+{
+  "name": "react-native-ivideo",
+  "version": "1.0.0",
+  "description": "React-native-ivideo is a component based on the react-native-video custom play bar.",
+  "main": "index.js",
+  "dependencies": {
+    "prop-types": "^15.6.2"
+  },
+  "author": "lizhooh",
+  "license": "MIT",
+  "keywords": [
+    "react-native-ivideo",
+    "react-native-video",
+    "react-native-video-play",
+    "video",
+    "react-video"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lizhooh/react-native-ivideo"
+  }
+}

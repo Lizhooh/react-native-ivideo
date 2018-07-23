@@ -1,7 +1,6 @@
 
 ## react-native-ivideo
-
-React-native-ivideo A component based on the react-native-video custom play bar. React Native > 0.40.0 is required.
+React-native-ivideo is a component based on the react-native-video custom play bar. React Native > 0.40.0 is required.
 
 <a href="https://www.npmjs.com/package/react-native-ivideo"><img src="https://img.shields.io/npm/v/react-native-ivideo.svg?style=flat-square"></a>
 <a href="https://www.npmjs.com/package/react-native-ivideo"><img src="https://img.shields.io/npm/dm/react-native-ivideo.svg?style=flat-square"></a>
@@ -108,7 +107,7 @@ __Map to the properties of react-native-video:__
 
 | name                   | type   | default | description                              |
 | :--------------------- | :----- | :------ | :--------------------------------------- |
-| progressUpdateInterval | number | 600     | The call time difference of onProgress.  |
+| progressUpdateInterval | number | 500     | The call time difference of onProgress (ms).  |
 | playInBackground       | bool   | false   | whether the video is playing in the background. |
 | muted                  | bool   | false   | whether it is muted.                     |
 | rate                   | number | 1.0     | the rate at which the video plays.       |

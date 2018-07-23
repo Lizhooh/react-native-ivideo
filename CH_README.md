@@ -102,7 +102,7 @@ __映射到 react-native-video 的属性：__
 
 | name                   | type   | default | description          |
 | :--------------------- | :----- | :------ | :------------------- |
-| progressUpdateInterval | number | 600     | onProgress 的调用时间差 。  |
+| progressUpdateInterval | number | 500     | onProgress 的调用时间差（ms）。  |
 | playInBackground       | bool   | false   | 视频是否在后台播放            |
 | muted                  | bool   | false   | 是否静音。                |
 | rate                   | number | 1.0     | 视频播放的速率。             |
