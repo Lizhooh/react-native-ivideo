@@ -2,6 +2,10 @@
 ## react-native-ivideo
 react-native-ivideo 一个基于 react-native-video 自定义播放栏的组件。需要 React Native > 0.40.0。
 
+<a href="https://www.npmjs.com/package/react-native-ivideo"><img src="https://img.shields.io/npm/v/react-native-ivideo.svg?style=flat-square"></a>
+<a href="https://www.npmjs.com/package/react-native-ivideo"><img src="https://img.shields.io/npm/dm/react-native-ivideo.svg?style=flat-square"></a>
+
+
 > 目前暂未在  IOS 上测试表现效果。
 
 特性：

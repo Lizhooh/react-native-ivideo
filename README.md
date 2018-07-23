@@ -3,6 +3,11 @@
 
 React-native-ivideo A component based on the react-native-video custom play bar. React Native > 0.40.0 is required.
 
+<a href="https://www.npmjs.com/package/react-native-ivideo"><img src="https://img.shields.io/npm/v/react-native-ivideo.svg?style=flat-square"></a>
+<a href="https://www.npmjs.com/package/react-native-ivideo"><img src="https://img.shields.io/npm/dm/react-native-ivideo.svg?style=flat-square"></a>
+
+
+
 [中文说明 -> 点这里](./CH_README.md)
 
 > Currently, the performance is not tested on IOS.
