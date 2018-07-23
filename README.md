@@ -133,6 +133,7 @@ __event:__
 | onPause            | function | e => e  | fires when the video is paused.          |
 | onEnd              | function | e => e  | fires when the video ends.               |
 | onError            | function | e => e  | fires when an error occurs in video playback/loading. |
+| onBack             | function | e => e  | Triggered when clicked back. |
 
 
 

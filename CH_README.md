@@ -129,6 +129,7 @@ __事件：__
 | onPause            | function | e => e  | 在视频暂停播放时触发。      |
 | onEnd              | function | e => e  | 在视频播放结束时触发。      |
 | onError            | function | e => e  | 在视频播放/加载发生错误时触发。 |
+| onBack             | function | e => e  | 在点击返回时触发。 |
 
 
 ### 更新日志
