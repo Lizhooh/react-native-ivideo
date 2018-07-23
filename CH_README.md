@@ -46,6 +46,24 @@ react-native link react-native-orientation
 react-native link react-native-linear-gradient
 ```
 
+在 `android/build.gradle` 里修改代码：
+
+```js
+allprojects {
+    repositories {
+        mavenLocal()
+        jcenter()
+        maven {
+            url 'https://maven.google.com'
+        }
+        maven {
+            // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
+            url "$rootDir/../node_modules/react-native/android"
+        }
+    }
+}
+```
+
 ### 使用
 
 ```js

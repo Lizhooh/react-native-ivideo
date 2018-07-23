@@ -50,6 +50,24 @@ react-native link react-native-orientation
 react-native link react-native-linear-gradient
 ```
 
+modify the code in `android/build.gradle`:
+
+```js
+allprojects {
+    repositories {
+        mavenLocal()
+        jcenter()
+        maven {
+            url 'https://maven.google.com'
+        }
+        maven {
+            // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
+            url "$rootDir/../node_modules/react-native/android"
+        }
+    }
+}
+```
+
 ### Usage
 
 ```js
