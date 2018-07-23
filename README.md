@@ -26,7 +26,7 @@ __characteristic:__
 
 #### Full screen playback.
 
-![](./image/full.png)
+![](./image/full.gif)
 
 #### Fade out animation.
 
