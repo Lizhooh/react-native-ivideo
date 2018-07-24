@@ -78,13 +78,20 @@ import IVideo from 'react-native-ivideo';
     showFullscreenIcon={true}
     width='100%'
     height={240}
+    actions={[{
+        text: 'select 1',
+        onPress: () => { },
+    }, {
+        text: 'select 2',
+        onPress: () => { },
+    }]}
 />
 ```
 
-### Example
+### 示例
 请查看 [示例代码](./example/index.js)。
 
-### Props
+### 属性
 
 | name               | type          | default | description         |
 | :----------------- | :------------ | :------ | :------------------ |
@@ -96,6 +103,7 @@ import IVideo from 'react-native-ivideo';
 | title              | string        | ''      | 工具栏显示的标题。           |
 | showFullscreenIcon | bool          | false   | 是否显示全屏按钮。           |
 | autoPlay           | bool          | false   | 是否在视频初始化完成后就自动开始播放。 |
+| actions            | array         | []      | 功能组。 |
 
 <br />
 

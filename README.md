@@ -10,7 +10,7 @@ react-native-ivideo is a react-native-video based video player component. React 
 
 > Currently, the performance is not tested on IOS.
 
-__characteristic:__
+__Features:__
 - Basic playback features, friendly interface, progress control, evolving animation, and simple style.
 - Fine-grained optimization, the UI thread can maintain 60 FPS during playback, and the JS thread can maintain 60 ~ 55 FPS.
 - Provides full-screen playback.
@@ -79,6 +79,13 @@ import IVideo from 'react-native-ivideo';
     showFullscreenIcon={true}
     width='100%'
     height={240}
+    actions={[{
+        text: 'select 1',
+        onPress: () => { },
+    }, {
+        text: 'select 2',
+        onPress: () => { },
+    }]}
 />
 ```
 
@@ -99,6 +106,8 @@ Please check [example code](./example/index.js).
 | title              | string        | ''      | the title displayed by the toolbar.      |
 | showFullscreenIcon | bool          | false   | whether to display the full screen button. |
 | autoPlay           | bool          | false   | whether to automatically start playback after the video initialization is completed. |
+| actions            | array         | []      | Functional group. |
+
 
 <br />
 
@@ -138,3 +147,4 @@ __event:__
 
 
 ### Change log
+-  v1.5: add actions props.
