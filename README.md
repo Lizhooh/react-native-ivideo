@@ -1,6 +1,6 @@
 
 ## react-native-ivideo
-React-native-ivideo is a component based on the react-native-video custom play bar. React Native > 0.40.0 is required.
+react-native-ivideo is a react-native-video based video player component. React Native > 0.40.0 is required.
 
 <a href="https://www.npmjs.com/package/react-native-ivideo"><img src="https://img.shields.io/npm/v/react-native-ivideo.svg?style=flat-square"></a>
 <a href="https://www.npmjs.com/package/react-native-ivideo"><img src="https://img.shields.io/npm/dm/react-native-ivideo.svg?style=flat-square"></a>
