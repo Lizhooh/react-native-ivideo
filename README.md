@@ -106,7 +106,7 @@ Please check [example code](./example/index.js).
 | title              | string        | ''      | the title displayed by the toolbar.      |
 | showFullscreenIcon | bool          | false   | whether to display the full screen button. |
 | autoPlay           | bool          | false   | whether to automatically start playback after the video initialization is completed. |
-| actions            | array         | []      | Functional group. |
+| actions            | array         | [{ text, onPress }]      | Functional group. |
 
 
 <br />

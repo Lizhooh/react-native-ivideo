@@ -103,7 +103,7 @@ import IVideo from 'react-native-ivideo';
 | title              | string        | ''      | 工具栏显示的标题。           |
 | showFullscreenIcon | bool          | false   | 是否显示全屏按钮。           |
 | autoPlay           | bool          | false   | 是否在视频初始化完成后就自动开始播放。 |
-| actions            | array         | []      | 功能组。 |
+| actions            | array         |  [{ text, onPress }]      | 功能组。 |
 
 <br />
 
