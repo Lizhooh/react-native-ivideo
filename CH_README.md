@@ -102,6 +102,7 @@ import IVideo from 'react-native-ivideo';
 | toolbarSliderColor | string        | #f90    | 工具栏滑块的颜色。           |
 | title              | string        | ''      | 工具栏显示的标题。           |
 | showFullscreenIcon | bool          | false   | 是否显示全屏按钮。           |
+| showBackIcon       | bool          | true    | 是否显示回退按钮。  |
 | autoPlay           | bool          | false   | 是否在视频初始化完成后就自动开始播放。 |
 | actions            | array         |  [{ text, onPress }]      | 功能组。 |
 
@@ -139,5 +140,13 @@ __事件：__
 | onError            | function | e => e  | 在视频播放/加载发生错误时触发。 |
 | onBack             | function | e => e  | 在点击返回时触发。 |
 
+### Method
+
+| name               | type     |  description                              |
+| :----------------- | :------- |  :--------------------------------------- |
+| play        | function |  播放视频。      |
+| pause       | function |  暂停视频。        |
+| seek        | function |  改变视频的进度位置。  |
+| replay     | function |  重新播放。      |
 
 ### 更新日志

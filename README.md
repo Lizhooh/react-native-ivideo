@@ -105,6 +105,7 @@ Please check [example code](./example/index.js).
 | toolbarSliderColor | string        | #f90    | the color of the toolbar slider.         |
 | title              | string        | ''      | the title displayed by the toolbar.      |
 | showFullscreenIcon | bool          | false   | whether to display the full screen button. |
+| showBackIcon       | bool          | true    | whether to display the back icon .  |
 | autoPlay           | bool          | false   | whether to automatically start playback after the video initialization is completed. |
 | actions            | array         | [{ text, onPress }]      | Functional group. |
 
@@ -145,6 +146,15 @@ __event:__
 | onBack             | function | e => e  | Triggered when clicked back. |
 
 
+### Method
+
+| name               | type     |  description                              |
+| :----------------- | :------- |  :--------------------------------------- |
+| play        | function |   Play video       |
+| pause       | function |  Pause video          |
+| seek        | function |  Change the video playback position  |
+| replay     | function |  Replay video      |
 
 ### Change log
+-  v1.6: add public method
 -  v1.5: add actions props.
