@@ -13,7 +13,7 @@ interface IProgressData {
     seekableDuration: number,
 }
 
-interface IVideoProps extends ReactNative.ViewProps {
+interface IVideoProps {
     toolbarDuration?: number,
     width: number | string,
     height: number | string,
