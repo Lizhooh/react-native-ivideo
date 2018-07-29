@@ -1,17 +1,6 @@
 import * as React from 'react';
 import * as ReactNative from 'react-native';
-import * as Video from 'react-native-video';
-
-interface IActionsData {
-    text: string,
-    onPress?(): any,
-}
-
-interface IProgressData {
-    currentTime: number,
-    playableDuration: number,
-    seekableDuration: number,
-}
+import { LoadError, OnLoadData } from 'react-native-video';
 
 interface IVideoProps {
     toolbarDuration?: number,
@@ -22,7 +11,10 @@ interface IVideoProps {
     title?: string,
     startFullscreen?: boolean,
     autoPlay?: boolean,
-    actions?: [IActionsData],
+    actions?: [{
+        text: string,
+        onPress?(): any,
+    }],
 
     source: { uri: string },
     progressUpdateInterval?: number,
@@ -35,16 +27,20 @@ interface IVideoProps {
     volume?: number,
     seek?: number,
 
-    onProgress?(d: IProgressData): any,
+    onProgress?(d: {
+        currentTime: number,
+        playableDuration: number,
+        seekableDuration: number,
+    }): any,
     onBuffer?(e: Event): any,
-    onLoad?(d: Video.OnLoadData): any,
+    onLoad?(d: OnLoadData): any,
     onFullscreen?(e: Event): any,
     onCancelFullscreen?(e: Event): any,
     onPlay?(e: Event): any,
     onPause?(e: Event): any,
     onEnd?(e: Event): any,
     onLoadStart?(e: Event): any,
-    onError?(e: Video.LoadError): any,
+    onError?(e: LoadError): any,
     onBack?(e: Event): any,
 }
 
