@@ -108,7 +108,7 @@ Please check [example code](./example/index.js).
 | showBackIcon       | bool          | true    | whether to display the back icon .  |
 | autoPlay           | bool          | false   | whether to automatically start playback after the video initialization is completed. |
 | actions            | array         | [{ text, onPress }]      | Functional group. |
-
+| gradientColor      | array         | ['rgba(1, 1, 1, 0.45)', 'rgba(1, 1, 1, 0.24)', 'rgba(1, 1, 1, 0.45)'] | Gradient color of the occlusion layer. |
 
 <br />
 

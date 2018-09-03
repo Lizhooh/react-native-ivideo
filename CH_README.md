@@ -105,6 +105,7 @@ import IVideo from 'react-native-ivideo';
 | showBackIcon       | bool          | true    | 是否显示回退按钮。  |
 | autoPlay           | bool          | false   | 是否在视频初始化完成后就自动开始播放。 |
 | actions            | array         |  [{ text, onPress }]      | 功能组。 |
+| gradientColor      | array         | ['rgba(1, 1, 1, 0.45)', 'rgba(1, 1, 1, 0.24)', 'rgba(1, 1, 1, 0.45)'] | 遮挡层的渐变颜色。 |
 
 <br />
 
