@@ -156,5 +156,6 @@ __event:__
 | replay     | function |  Replay video      |
 
 ### Change log
+-  v2.0.0: Rewrite code, fix some bugs, add full-screen adaptive video orientation.
 -  v1.6: add public method
 -  v1.5: add actions props.
