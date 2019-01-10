@@ -1,6 +1,6 @@
 {
   "name": "react-native-ivideo",
-  "version": "2.0.10",
+  "version": "2.0.11",
   "description": "react-native-ivideo is a react-native-video based video player component.",
   "main": "index.js",
   "dependencies": {
